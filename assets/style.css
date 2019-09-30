@@ -27,11 +27,11 @@
 }
 
 .main-nav li {
-  display: inline-block
+  display: inline-block;
 }
 
 .main-nav a {
-  color: #555555
+  color: #555555;
 }
 
 .photo {
@@ -40,11 +40,21 @@
 
 p {
   box-sizing: border-box;
-  text-align: center;
+  font-size: 18px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  display: inline-block;
 }
 
 .main-content-wrap {
+  background: #ffffff;
   height: 960px;
   width: 960px;
+}
+
+.content-title {
+  color: #4aaaa5;
+}
+
+.footer-wrap {
+  background: #555555;
 }
